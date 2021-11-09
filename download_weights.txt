@@ -1,0 +1,4 @@
+'''
+Download weights of yolov3 from the following link 
+'''
+wget "https://pjreddie.com/media/files/yolov3.weights"
