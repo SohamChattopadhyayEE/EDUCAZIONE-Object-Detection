@@ -27,3 +27,8 @@ This is a real-time / video object detection project using `yolov3` model. The e
                             The dimensions of the frames
       -conf_threh THRESHOLD_CONFIDENCE, --threshold_confidence THRESHOLD_CONFIDENCE
                             Threshold confidence for selecting an object
+## Execution
+- ### Real-time object detection :
+      .\directory\object_detection> python object_detection.py 
+- ### Video object detection :
+      .\directory\object_detection> python object_detection.py -is_realtime -vid video.mp4
