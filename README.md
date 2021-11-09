@@ -3,7 +3,8 @@ This is a real-time / video object detection project using `yolov3` model. The e
 ## Dependencies
 - install packages : `.\directory\object_detection> pip install requirements.txt`
 - download yolov3 weights :  `.\directory\object_detection\model_yolov3> download_weights.txt `
-- the required config file named `yolov3.cfg` can be found in model_yolov3 folder.  
+- the required config file named `yolov3.cfg` can be found in `model_yolov3` folder.  
+- for classes identification the `coco.txt` file can be found in current directory. 
 ## Arguments
     .\directory\object_detection> python object_detection.py --help
     usage: object_detection.py [-h] [-wt MODEL_WEIGHTS] [-cfg MODEL_CFG] [-cls DATASET_CLASSES] [-is_realtime] [-vid VID_PATH]
