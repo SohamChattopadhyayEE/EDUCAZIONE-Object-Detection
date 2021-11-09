@@ -4,7 +4,7 @@ This is a real-time / video object detection project using `yolov3` model. The e
 - install packages : `.\directory\object_detection> pip install requirements.txt`
 - download yolov3 weights :  `.\directory\object_detection\model_yolov3> download_weights.txt `
 ## Arguments
-    E:\Job_Internships\Educazone\Task3_ObjectDetection> python object_detection.py --help
+    .\directory\object_detection> python object_detection.py --help
     usage: object_detection.py [-h] [-wt MODEL_WEIGHTS] [-cfg MODEL_CFG] [-cls DATASET_CLASSES] [-is_realtime] [-vid VID_PATH]
                                [-fd FRAME_DIMENSION] [-conf_threh THRESHOLD_CONFIDENCE]
 
