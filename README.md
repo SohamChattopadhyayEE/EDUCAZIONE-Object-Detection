@@ -1,1 +1,1 @@
-# EDUCAZIONE-Object-Detection
+# Object Detection
